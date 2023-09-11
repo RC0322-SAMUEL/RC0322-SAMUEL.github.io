@@ -2,6 +2,21 @@
 <html>
     <head>
     <title>TSTY & Pizza</title>
+
+    <style>
+        table{
+            width: 80%;
+        }
+        table, th, td{
+            text-align: center;
+            border: 2px solid black;
+            padding: 7px 5px 7px 5px;
+            /*border-spacing: 10px; - nu merge impreuna cu border-collapse: collapse
+            deoarece border-collapse seteaza border-spacing la 0px*/
+            border-collapse: collapse;
+        }
+    </style>
+
 </head>
 <body>
     <h1>Welcome to TSTY & Pizza</h1> 
@@ -10,6 +25,7 @@
 
    <br>
 
+   <!--Added ordered and unordered list-->
    <h2>We have these types of pizza:</h2>
     <ul>
         <li>NYC BBQ Pizza</li>
@@ -35,8 +51,13 @@
 
     <br>
 
+    <!--Added table and unique id to table-->
     <h4>How do we compare to other companies:</h4>
-    <table>
+    <table id="comparison_table">
+        
+        <!--Utilize caption tag-->
+        <caption style="padding: 20px;">Comparison table:</caption>
+        
         <tr style="padding: 5px;">
             <th>Name</th>
             <th>Location</th>
@@ -62,11 +83,13 @@
             <td>Good</td>
             <td>Very Good</td>
         </tr>
+        <tr>
+            <td rowspan="2">Others</td>
+            <td colspan="3">Acceptable</td>
+        </tr>
+        <tr>
+            <td colspan="3">Bad</td>
+        </tr>
     </table>    
 </body>
 </html>
-
-<!-- 
-    code made at lesson
-  
--->
