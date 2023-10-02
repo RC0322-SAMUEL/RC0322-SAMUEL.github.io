@@ -1,8 +1,11 @@
-
 <!DOCTYPE html>
 <html>
     <head>
     <title>TSTY & Pizza</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700;900&display=swap" rel="stylesheet">
 
     <style>
        /* Styles for the pizza image link button */
@@ -22,9 +25,10 @@
 
         /* Styles body and all of it's text */
         body{
-            font-family: 'Segoe UI';
+            margin: 0;
+            font-family: 'Gabarito';
             color:whitesmoke;
-            background: rgb(48, 34, 34);
+            background: rgb(31, 31, 31);
 
             text-align: center;
         }
@@ -49,7 +53,7 @@
         /* Styles for the on website pizza image */
         img{
             padding: 5px;
-            width: 40%;
+            width: 50%;
             border-radius: 20px;
             border: 3px solid white;
         }
@@ -73,23 +77,39 @@
         {
             font-size: 50px;
         }
-        .intro-video
+        iframe
         {
             border-radius: 20px;
+            border: 3px solid white;
+            padding: 5px;
             margin-right: auto;
             margin-left: auto;
+        }
+        audio
+        {
+            width: 50%;
+            border-radius: 50px;
+            border: 5px solid white;
+            padding: 5px;
         }
         .bbq, .tonno, .vegano
         {
             margin-top: 20px;
             margin-bottom: 20px;
         }
+        .pizza-icon
+        {
+            width: 20%;
+            margin-bottom: 0;
+            margin-top: 30px;
+            border: 0;
+        }
     </style>
 
 </head>
 <body>
-    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595458.png" alt="pizza-icon" style="border: white solid 0px; width: 10%;">
-    <h1>Welcome to TSTY & Pizza</h1> 
+    <a href="./index.html"><img src="https://icons.veryicon.com/png/o/food--drinks/food-7/pizza-23.png" alt="pizza-icon" class="pizza-icon"></a>
+    <h1>TSTY & Pizza</h1> 
     <p>We make pizza that you can actually eat ...</p>
     <a href="https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg">Please click here to see a beautiful pizza !</a>
     
@@ -97,21 +117,16 @@
     <br>
 
     <div class="intro-video">
-        <iframe frameBorder = "0" class="pizza-video" src="https://www.youtube-nocookie.com/embed/O7fOeXHpskI?si=nXSGNt4qW1scJ-VM" title="TSTY Pizza" width="960" height="520"></iframe>
+        <iframe frameBorder = "0" class="pizza-video" src="https://www.youtube-nocookie.com/embed/O7fOeXHpskI?si=nXSGNt4qW1scJ-VM" title="TSTY Pizza" width="50%" height="450px"></iframe>
     </div>
 
    <br>
         <audio controls autoplay>
             <source src="https://cdn.pixabay.com/audio/2023/08/26/audio_a6ee15a317.mp3" type="audio/mp3">
-        </audio>
+        </audio> 
    <br>
    <br>
-
-   <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg" alt="Pizza">
-    
-   <br>
-   <br>
-   <img src="https://media.tenor.com/JQy0kDsWlDEAAAAd/pizza.gif" alt="eating-pizza-boy">
+   <a href="https://media.tenor.com/AmvPSQ4TirwAAAAM/hasbulla-hasbulla-magomedov.gif"><img src="https://media.tenor.com/JQy0kDsWlDEAAAAd/pizza.gif" alt="eating-pizza-boy"></a>
 
    <!--Added ordered and unordered list-->
    <h2>We have these types of pizza:</h2>
@@ -195,10 +210,10 @@
     <br>
 
     <h6>Choose one of our pizzas here: </h6>
-    <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/BBQ-Chicken-Pizza.jpg" alt="BBQ Pizza" class="bbq">
+    <a href="https://www.licious.in/blog/wp-content/uploads/2020/12/BBQ-Chicken-Pizza.jpg"><img src="https://www.licious.in/blog/wp-content/uploads/2020/12/BBQ-Chicken-Pizza.jpg" alt="BBQ Pizza" class="bbq"></a>
     <br>
-    <img src="https://www.silviocicchi.com/pizzachef/wp-content/uploads/2015/03/t-evid.jpg" alt="Tonno pizza" class="tonno">
+    <a href="https://www.silviocicchi.com/pizzachef/wp-content/uploads/2015/03/t-evid.jpg"><img src="https://www.silviocicchi.com/pizzachef/wp-content/uploads/2015/03/t-evid.jpg" alt="Tonno pizza" class="tonno"></a>
     <br>
-    <img src="https://thebigmansworld.com/wp-content/uploads/2023/01/vegan-pizza-recipe.jpg" alt="Vegano pizza" class="vegano">
+    <a href="https://thebigmansworld.com/wp-content/uploads/2023/01/vegan-pizza-recipe.jpg"><img src="https://thebigmansworld.com/wp-content/uploads/2023/01/vegan-pizza-recipe.jpg" alt="Vegano pizza" class="vegano"></a>
 </body>
 </html>
