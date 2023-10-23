@@ -122,6 +122,15 @@
       {
         margin-top: 30px;
       }
+      select
+      {
+        width: 400px;
+        height: 100px;
+      }
+      option
+      {
+        padding: 10px;
+      }
     </style>
   </head>
   <body>
@@ -254,7 +263,33 @@
                 <br>
                 <input type="text" name="surname">
                 <br>
-                <input type="submit" value="Trimite!">
+                <select required multiple="yes" name="pizza-picker" size="3">
+                    <option value="Pepperoni">Pepperoni Pizza</option>
+                    <option value="Tonno">Vegano Pizza</option>
+                    <option value="Vegano">Tonno Pizza</option>
+                    <option value="Pepperoni">Blank Pizza</option>
+                    <option value="Tonno">Crudo Pizza</option>
+                    <option value="Vegano">Prank Pizza</option>
+                </select>
+                <br>
+                <br>
+                <select name="day-delivery" required>
+                    <option value="Pepperoni">Monday</option>
+                    <option value="Tonno">Tuesday</option>
+                    <option value="Vegano">friday</option>
+                    <option value="Pepperoni">Saturday</option>
+                </select>
+                <br>
+                <br>
+                <input type="password" value="Parola" placeholder="Introdu o Parola" size="10" maxlength="10">
+                <br>
+                Gratis!<input type="checkbox" value="Gratis!">
+                <br>
+                Wow!<input type="radio" value="Wow!" checked="yes" placeholder="Wow!">
+                <br>
+                <textarea name="text"  cols="30" rows="10">Alte preferinte ?</textarea>
+                <br>
+                <input type="reset" value="Sterge tot!">
             </form>
     </div>
 
