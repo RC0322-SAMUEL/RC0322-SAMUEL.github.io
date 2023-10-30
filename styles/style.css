@@ -136,3 +136,11 @@ body:hover
   {
     padding: 10px;
   }
+  caption
+  {
+    padding: 20px;
+  }
+  tr
+  {
+    padding: 5px;
+  }
