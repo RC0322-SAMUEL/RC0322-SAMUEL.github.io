@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+}
+p
+{
+    font-weight: 700;
+}
+header nav
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(219,44,48);
+    border-top: 5px solid rgb(30,31,38);
+    border-bottom: 5px solid rgb(30,31,38);
+    border-right: 5px solid rgb(30,31,38);
+    border-left: 5px solid rgb(30,31,38);
+}
+.LogoButton
+{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: ease-in-out;
+    transition-duration: .3s;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+.LogoButton:hover
+{
+    text-decoration: underline;
+}
+
+.LogoButton p
+{
+    font-size: 26px;
+}
+
+.LogoButton img 
+{
+    height: 30px;
+}
+
+.LogoButton p
+{
+    margin-left: 18px;
+}
+.btns
+{
+    width: 300px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btns img
+{
+    height: 40px;
+    border-radius: 10px;
+}
+.btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    height: 45px;
+    width: 170px;
+    background-color: rgb(31,111,61);
+    color: white;
+    border: 2px solid white;
+}
+.btn:hover
+{
+    text-decoration: underline;
+}
+.Promo
+{
+    border-bottom: 5px solid rgb(30,31,38);
+    height: 650px;
+    width: 100vw;
+    display: flex;
+}
+.TextArea
+{
+    background:url(./images/logo.svg) rgb(219,44,48);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    text-shadow: 5px 3px 3px rgb(219,44,48);
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    text-align: center;
+    border-right: 5px solid rgb(30,31,38);
+    border-left:  5px solid rgb(30,31,38);
+}
+.TextArea h1
+{
+    max-width: 80%;
+}
+.ImageArea
+{
+    display: flex;
+    background-image: url(https://img.freepik.com/premium-photo/product-shots-fast-shutter-speed-food-photograph_670382-121190.jpg);
+    background-size: cover;
+    width: 50vw;
+    border-right: 5px solid rgb(30,31,38);
+}
+.OrderCTA
+{
+    height: 150px;
+    background-image: url(./images/pizza.svg);
+    background-size: 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 5px solid rgb(30,31,38);
+    border-right: 5px solid rgb(30,31,38);
+    border-bottom: 5px solid rgb(30,31,38);
+}
+.OrderCTA p
+{
+    margin-left: 100px;
+    font-size: 24px;
+    color: black;
+}
+.OrderCTAButtons
+{
+    margin-right: 100px;
+    display: flex;
+    height: 100%;
+    width: 370px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: flex-end;
+}
+.octa1, .octa2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219,44,48);
+    border: 3px solid rgb(30,31,38);
+    font-weight: 700;
+    text-decoration: none;
+    width: 170px;
+    height: 45px;
+}
+.octa1:hover, .octa2:hover
+{
+    text-decoration: underline;
+}
+.octa1 img, .octa2 img
+{
+    width: 30px;
+    margin-right: 10px;
+}
