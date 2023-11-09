@@ -1,0 +1,230 @@
+@import "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;700&display=swap";
+
+* {
+padding:0;
+margin:0;
+box-sizing:border-box;
+font-family:"IBM Plex Mono",monospace;
+color:#fff;
+transition: linear;
+transition-duration: .15s;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100vw;
+  overflow-x: hidden;
+}
+::selection {
+    background: rgba(255, 202, 28, 0.678);
+}
+p {
+font-weight:700
+}
+
+header nav {
+height:100px;
+display:flex;
+justify-content:space-between;
+padding:10px;
+align-items:center;
+background-color:#db2c30;
+border-top:5px solid #1e1f26;
+border-bottom:5px solid #1e1f26;
+border-right:5px solid #1e1f26;
+border-left:5px solid #1e1f26
+}
+
+.LogoButton {
+margin-left:50px;
+display:flex;
+align-items:center;
+text-decoration:none;
+transition:ease-in-out;
+transition-duration:.3s;
+border-radius:30px;
+padding:10px
+}
+
+.LogoButton:hover {
+text-decoration:underline
+}
+
+.LogoButton p {
+font-size:26px
+}
+
+.LogoButton img {
+height:30px
+}
+
+.LogoButton p {
+margin-left:18px
+}
+
+.btns {
+width:300px;
+margin-right:50px;
+display:flex;
+justify-content:space-between;
+align-items:center
+}
+
+.btns img {
+height:40px;
+border-radius:10px
+}
+
+.btn {
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+font-size:18px;
+font-weight:700;
+height:45px;
+width:170px;
+background-color:#1f6f3d;
+color:#fff;
+border:2px solid #fff
+}
+
+.btn:hover {
+text-decoration:underline
+}
+.Section input
+{
+    font-weight: 700;
+    color:#1e1f26;
+}
+.Section
+{
+    border-right:5px solid #1e1f26;
+    border-left:5px solid #1e1f26;
+    color: #1e1f26;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-image: url(/styles/images/greypizza.svg);
+    background-size: 50px 50px;
+}
+.Section h1
+{
+    font-size: 48px;
+    color: #1e1f26;
+    text-align: center;
+}
+.Section h2
+{
+    margin-top: 40px;
+    color: #1e1f26;
+    max-width: 30%;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+.Section p
+{
+    margin-top: 50px;
+    text-align: center;
+    max-width: 25%;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1e1f26;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input
+{
+    font-size: 16px;
+    border:3px solid #1e1f26;
+    width: 450px;
+    margin-bottom: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+form button
+{
+    background-color: #1f6f3d;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 450px;
+    height: 50px;
+    text-align: center ;
+}
+form button:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+footer
+{
+    margin-top: auto;
+    height: 300px;
+    border-top:5px solid #1e1f26;
+    border-bottom:5px solid #1e1f26;
+    border-left:5px solid #1e1f26;
+    border-right:5px solid #1e1f26;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.FooterLogo
+{
+    margin-left: 60px;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.FooterLogo img
+{
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    height: 30px;
+}
+.FooterLogo p
+{
+    margin-left: 20px;
+    color: black;
+    font-size: 22px;
+}
+.FooterLinks
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 65%;
+    width: 60%;
+    margin-left: 150px;
+}
+.FooterLinks li
+{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.FooterLinks li>a:hover
+{
+    text-decoration: underline;
+}
+
+.FooterLinks li > a
+{
+    color: rgb(87,85,85);
+    text-decoration: none;
+    font-weight: 700;
+}
